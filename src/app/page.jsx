@@ -1,7 +1,5 @@
 "use client";
 import AtrAbout from "@/Components/AtrAbout";
-import Footer from "@/Components/Footer";
-import Header from "@/Components/Header";
 import HeroSection from "@/Components/HeroSection";
 import PortfolioGrid from "@/Components/Services";
 import ServicesSection from "@/Components/ServiceSection";
@@ -19,12 +17,10 @@ const Home = () => {
   }, []);
   return (
     <div className={`w-full h-auto`}>
-      <Header />
       <HeroSection />
       <AtrAbout />
       <ServicesSection />
       <PortfolioGrid />
-      <Footer />
     </div>
   );
 };
